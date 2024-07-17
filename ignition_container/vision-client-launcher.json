@@ -1,0 +1,56 @@
+{
+  "global": {
+    "client.defaults": {
+      "timeout": 30,
+      "retries": -1,
+      "init.heap": null,
+      "max.heap": null,
+      "use.custom.jre": false,
+      "custom.jre.path": "${JAVA_HOME}/bin/java",
+      "jvm.arguments": [
+        ""
+      ],
+      "client.tag.overrides": {}
+    },
+    "autoexit": false,
+    "default.application": "Vision Demo",
+    "multicast.address": "231.1.1.1",
+    "multicast.receive.port": 4446,
+    "lock.configuration": false,
+    "logger.level": "INFO",
+    "version.updates.prompt": true,
+    "version.updates.revision.diff": 3,
+    "trust.store": "jvm"
+  },
+  "applications": [
+    {
+      "project": "IADemo",
+      "allow.windowed.launching": null,
+      "allow.fullscreen.launching": null,
+      "main.class": "com.inductiveautomation.factorypmi.application.runtime.ClientLaunchHook",
+      "window.mode": null,
+      "timeout": 30,
+      "screen": null,
+      "retries": -1,
+      "init.heap": null,
+      "max.heap": null,
+      "sun.java2d.d3d": null,
+      "sun.java2d.noddraw": null,
+      "jvm.arguments": [],
+      "client.tag.overrides": {},
+      "fallback.application": "",
+      "use.custom.jre": false,
+      "custom.jre.path": "${JAVA_HOME}/bin/java",
+      "name": "Vision Demo",
+      "description": null,
+      "gateway.info": {
+        "gateway.name": "Ignition Demo VM",
+        "gateway.address": "http://192.168.27.18:8088",
+        "redundant.gateways": []
+      },
+      "last.updated": 1721157827909,
+      "image.path": null,
+      "favorite": false
+    }
+  ]
+}
