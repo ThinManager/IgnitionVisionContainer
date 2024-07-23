@@ -1,6 +1,6 @@
 # Ignition Custom Container README #
 
-Example scripts used to create a custom ThinManager Docker container that runs the Ingition Vision Client Launcher.
+Example scripts used to create a custom ThinManager Docker container that runs the Ingition Vision Client Launcher. You may watch a video demonstration here as well: https://youtu.be/XsbWVnUKtOg.
 
 The following is an overview of the files included:
 - **build.sh** - This is the main script that is used to modify the ThinManager Chrome Container and add the Ignition Vision Client Luancher.
