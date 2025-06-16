@@ -2,7 +2,7 @@
 
 Example scripts used to create a custom ThinManager Docker container that runs the Ingition Vision Client Launcher. You may watch a video demonstration here as well: https://youtu.be/XsbWVnUKtOg.
 
-If you are looking to containerize an HMI, but don't feel like a Linux scripting guru, please check out our new ThinManager FactoryTalk Optix App container, possible in ThinManager version 14.1 and FactoryTalk Optix 1.6 and newer: https://www.youtube.com/watch?v=6sgCOZ_baPA.
+If you are looking to containerize an HMI, but don't feel like a Linux scripting guru, please check out an easier solution using our new ThinManager FactoryTalk Optix App container, possible in ThinManager version 14.1 and FactoryTalk Optix 1.6 and newer: https://www.youtube.com/watch?v=6sgCOZ_baPA.
 
 The following is an overview of the files included:
 - **build.sh** - This is the main script that is used to modify the ThinManager Chrome Container and add the Ignition Vision Client Luancher.
